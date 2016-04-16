@@ -41,12 +41,12 @@ console.log(prepared);
 ## reverse output
 ```js
 
-let reversed = transition.reverse({ test: 0.1 });
+let reversed = transition.reverse({ test: 0.8 });
 console.log(reversed);
 ```
 ```json
 {
-  "test": 0.8
+  "test": 4
 }
 ```
 
