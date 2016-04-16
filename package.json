@@ -1,0 +1,36 @@
+{
+  "name": "brain-pact",
+  "version": "0.0.1",
+  "description": "prepare input and reverse output of the neural network library brain",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test",
+    "gulp": "gulp"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansteh/brain-pact.git"
+  },
+  "keywords": [
+    "brain",
+    "pact",
+    "prepare",
+    "reverse",
+    "neural network",
+    "neural"
+  ],
+  "author": "Andre Stehle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ansteh/brain-pact/issues"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
