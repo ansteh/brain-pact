@@ -28,9 +28,9 @@
     "url": "https://github.com/ansteh/brain-pact/issues"
   },
   "dependencies": {
-
+    "brain": "^0.7.0",
+    "lodash": "^4.11.1",
+    "moment": "^2.12.0"
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
