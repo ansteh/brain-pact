@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/ansteh/brain-pact.svg?branch=master)](https://travis-ci.org/ansteh/brain-pact)
+
 ## Installation
 
 Using npm:
