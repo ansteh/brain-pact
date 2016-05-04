@@ -1,5 +1,6 @@
 'use strict';
 const pact = require('../index.js');
+const assert = require('assert');
 
 let inputOptions = {
   date: {
@@ -13,7 +14,9 @@ let inputOptions = {
 let transition = pact.employ(inputOptions);
 
 let prepared = transition.prepare({ date: Date.now(), test: 4 });
-console.log(prepared);
+assert.equal(prepared.test, 0.8, "prepared: success");
 
 let reversed = transition.reverse({ test: 0.8 });
-console.log(reversed);
+assert.equal(reversed.test, 4, "reversed: success");
+
+console.log("All tests have been passed!");

@@ -1,6 +1,6 @@
 {
   "name": "brain-pact",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "prepare input and reverse output of the neural network library brain",
   "main": "index.js",
   "scripts": {
@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "brain": "^0.7.0",
-    "lodash": "^4.11.1",
-    "moment": "^2.12.0"
+    "lodash": "^4.11.2",
+    "moment": "^2.13.0"
   },
   "devDependencies": {}
 }
